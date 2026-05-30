@@ -1,0 +1,8 @@
+
+body{margin:0;background:#111;color:#d4af37;font-family:sans-serif}
+header{text-align:center;padding:12px;font-size:24px}
+#treeContainer{height:55vh;border-bottom:1px solid #444}
+svg{width:100%;height:100%}
+#inputPanel{text-align:center;padding:20px}
+#currentCode,#result{font-size:28px;min-height:40px}
+#keyButton{width:220px;height:220px;border-radius:50%;font-size:36px}

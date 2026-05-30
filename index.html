@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>和文モールスツリー</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+<meta name="theme-color" content="#d4af37">
+</head>
+<body>
+<header>和文モールスツリー PWA</header>
+<main>
+<div id="treeContainer">
+<svg id="svg"><g id="viewport"></g></svg>
+</div>
+<section id="inputPanel">
+<div id="currentCode"></div>
+<button id="keyButton">電鍵</button>
+<div>短押し=・ / 長押し=－ / ダブルタップ=確定</div>
+<div id="result"></div>
+</section>
+</main>
+<script src="js/app.js"></script>
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+</script>
+</body>
+</html>
